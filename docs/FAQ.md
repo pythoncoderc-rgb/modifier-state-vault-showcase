@@ -19,7 +19,7 @@ They are user-defined profile slots, not hard-coded presets.
 Yes. Release testing includes save, full Blender shutdown, reopening, Apply, and exact state verification.
 
 ## What happens if I rename or reorder a modifier?
-Persistent identifiers and fallback matching are used where available. Rename/reorder recovery is covered by release tests.
+Rename and reorder recovery is supported and covered by release tests.
 
 ## What happens if an object or modifier is deleted after Boost?
 Missing items are skipped and reported so remaining states can still restore.
